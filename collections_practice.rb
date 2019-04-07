@@ -37,4 +37,5 @@ end
 
 def count_element(array)
   
+  array.collect do ||
 end
