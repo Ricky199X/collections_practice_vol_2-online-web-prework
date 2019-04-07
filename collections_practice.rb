@@ -38,5 +38,6 @@ end
 def count_element(array)
   count = Hash.new(0)
   array.collect do {|element| count[element] += 1}
-    count.collect do ||
+    count.collect do |hash, number|
+      
 end
