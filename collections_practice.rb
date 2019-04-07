@@ -35,9 +35,11 @@ end
 
 #count_elements count how many times somethingappears in an array
 
-def count_element(array)
-  count = Hash.new(0)
-  array.collect do {|element| count[element] += 1}
-    count.collect do |hash, number|
+def count_elements(array)
+  counts = Hash.new(0)
+  array.collect {|element| counts[element]+=1 }
+    counts.collect do |hash, number|
       hash[:count] = number
+    end
+  counts.keys
 end
