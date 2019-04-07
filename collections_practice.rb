@@ -17,6 +17,6 @@ end
 #first_wa Return the first element that begins with the letters 'wa'
 
 def first_wa(array)
-  array.each do |element|
-    element.first("wa")
+  array.find("wa")
+  end
 end
