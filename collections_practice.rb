@@ -18,5 +18,4 @@ end
 
 def first_wa(array)
   array.find("wa")
-  end
 end
