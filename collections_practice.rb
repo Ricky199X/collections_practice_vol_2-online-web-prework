@@ -44,6 +44,7 @@ def count_elements(array)
   counts.keys
 end
 
-def merge_data()
+def merge_data(hash1, hash2)
+  hash1.merge(hash2)
 end
 
