@@ -31,3 +31,5 @@ end
 def remove_non_strings(array)
   array.select {|element| element.class == String }
 end
+
+
