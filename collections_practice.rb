@@ -17,5 +17,11 @@ end
 #first_wa Return the first element that begins with the letters 'wa'
 
 def first_wa(array)
-  array.find("wa")
+  wa_elements = []
+  array.collect do |element|
+    if element.start_with?("wa")
+      wa_elements << element
+    end
+  end
+  wa_elements.first
 end
