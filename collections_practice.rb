@@ -55,7 +55,7 @@ end
 
 
 def find_cool(array)
-  array.select {|element| element.include?("cool")
+  array.select {|element| element.include?("cool")}
   end
 end
 
