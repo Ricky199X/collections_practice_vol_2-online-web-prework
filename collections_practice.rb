@@ -29,5 +29,5 @@ end
 #remove_non_strings removes anything that's not a string from the array
 
 def remove_non_strings(array)
-  array.select 
+  array.select {|element| element.class != "string" }
 end
