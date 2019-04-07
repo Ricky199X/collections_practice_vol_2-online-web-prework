@@ -40,6 +40,4 @@ def count_element(array)
   array.collect do {|element| count[element] += 1}
     count.collect do |hash, number|
       hash[:count] = number
-    end
-  count.keys
 end
