@@ -45,9 +45,10 @@ def count_elements(array)
 end
 
 def merge_data(array)
+  return_hash = Hash.new
   array.each do |element|
     if element.class == Hash
-      element.merge
+      return_hash.merge(element)
     end
   end
 end
