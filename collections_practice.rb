@@ -36,6 +36,6 @@ end
 #count_elements count how many times somethingappears in an array
 
 def count_element(array)
-  
+  count = Hash.new(0)
   array.collect do ||
 end
