@@ -19,7 +19,7 @@ end
 def first_wa(array)
   wa_elements = []
   array.collect do |element|
-    if element.start_with?("wa")
+    if element.to_s.start_with?("wa")
       wa_elements << element
     end
   end
