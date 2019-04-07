@@ -15,3 +15,8 @@ def contain_a(array)
 end
 
 #first_wa Return the first element that begins with the letters 'wa'
+
+def first_wa(array)
+  array.each do |element|
+    element.first("wa")
+end
