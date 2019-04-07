@@ -7,5 +7,9 @@ end
 def contain_a(array)
   array_of_a = []
   array.collect do |element|
-    if element.include?
+    if element.include?("a")
+      array_of_a << element
+    end
+  end
+  array_of_a
 end
