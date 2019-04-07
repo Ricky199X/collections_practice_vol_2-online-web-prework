@@ -33,4 +33,8 @@ def remove_non_strings(array)
 end
 
 
-collections practice vol 2. #count_elements count how many times somethingappears in an array
+#count_elements count how many times somethingappears in an array
+
+def count_element(array)
+  
+end
