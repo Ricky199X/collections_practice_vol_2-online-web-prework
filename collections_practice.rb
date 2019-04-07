@@ -47,7 +47,7 @@ end
 def merge_data(array)
   array.each do |element|
     if element.class == Hash
-      element.merge(element)
+      element.merge
     end
   end
 end
