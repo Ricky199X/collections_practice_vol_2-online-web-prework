@@ -41,5 +41,5 @@ def count_element(array)
     count.collect do |hash, number|
       hash[:count] = number
     end
-  
+  count.keys
 end
