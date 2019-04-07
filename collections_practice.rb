@@ -14,4 +14,4 @@ def contain_a(array)
   array_of_a
 end
 
-#first_wa Return the first element that beginswith the letters 'wa'
+#first_wa Return the first element that begins with the letters 'wa'
